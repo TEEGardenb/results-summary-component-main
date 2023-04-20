@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container_general">
+      <div class="container_result">
+        <div><span class="text_1">Your Result</span></div>
+        <div class="circle">
+          <span class="number_circle">76</span>
+          <span class="of100_circle">of 100</span>
+        </div>
+        <div><span class="text_2">Great</span></div>
+        <div class="text_container">
+          <p class="text_1 text_width">
+            You scored higher than 65% of<br />
+            the people who have taken<br />
+            these tests.
+          </p>
+        </div>
+      </div>
+      <div class="container_summary">
+        <h1>Summary</h1>
+        <div class="container_reaction container_of_reactions">
+          <div class="container_secundario_icons">
+            <img src="assets/images/icon-reaction.svg" alt="icon-reaction" />
+            <p class="color_1">Reaction</p>
+          </div>
+          <p class="score">
+            <span class="score_1">80</span> <span class="score_2">/ 100</span>
+          </p>
+        </div>
+        <div class="container_memory container_of_reactions">
+          <div class="container_secundario_icons">
+            <img src="assets/images/icon-memory.svg" alt="icon-memory" />
+            <p class="color_2">Memory</p>
+          </div>
+          <p class="score">
+            <span class="score_1">92</span> <span class="score_2">/ 100</span>
+          </p>
+        </div>
+        <div class="container_verbal container_of_reactions">
+          <div class="container_secundario_icons">
+            <img src="assets/images/icon-verbal.svg" alt="icon-verbal" />
+            <p class="color_3">Verbal</p>
+          </div>
+          <p class="score">
+            <span class="score_1">61</span> <span class="score_2">/ 100</span>
+          </p>
+        </div>
+        <div class="container_visual container_of_reactions">
+          <div class="container_secundario_icons">
+            <img src="assets/images/icon-visual.svg" alt="icon-visual" />
+            <p class="color_4">Visual</p>
+          </div>
+          <p class="score">
+            <span class="score_1">72</span> <span class="score_2">/ 100</span>
+          </p>
+        </div>
+        <button>Continue</button>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mateo Parra Ledesma</a>.
+    </div>
+  </body>
+</html>
